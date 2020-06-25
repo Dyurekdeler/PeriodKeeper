@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/autour_one</item>
+    </array>
+    <array name="preloaded_fonts_2" translatable="false">
+        <item>@font/roboto_slab_bold</item>
+    </array>
+</resources>
