@@ -25,27 +25,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/addPeriodLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/addPeriodTodayBtn"
-        android:layout_marginTop="50dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/periodDate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/enter_period"
-            android:inputType="text"
-            tools:text="17.05.1997" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintVertical_bias="0.371" />
 
     <Button
         android:id="@+id/addPeriodCustomBtn"
@@ -64,6 +44,27 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/addPeriodLayout"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.224" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addPeriodLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addPeriodTodayBtn">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/periodDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_period"
+            android:inputType="text"
+            tools:text="17.05.1997" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

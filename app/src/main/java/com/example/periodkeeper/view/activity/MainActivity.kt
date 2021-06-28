@@ -2,7 +2,11 @@ package com.example.periodkeeper.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.content.ContentProviderCompat
 import androidx.navigation.findNavController
+import androidx.room.Room
+import com.example.gotraveling.Dao.PeriodDao
+import com.example.gotraveling.Database.AppDatabase
 import com.example.periodkeeper.R
 import kotlinx.android.synthetic.main.activity_main.*
 

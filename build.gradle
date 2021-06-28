@@ -2,6 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.5.20'
+    ext.hilt_version = '2.35'
     repositories {
         google()
         jcenter()
@@ -15,6 +16,7 @@ buildscript {
         def nav_ver = "2.3.0-alpha02"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_ver"
 
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
