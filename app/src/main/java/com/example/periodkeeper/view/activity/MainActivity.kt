@@ -1,8 +1,9 @@
-package com.example.periodkeeper
+package com.example.periodkeeper.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
+import com.example.periodkeeper.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

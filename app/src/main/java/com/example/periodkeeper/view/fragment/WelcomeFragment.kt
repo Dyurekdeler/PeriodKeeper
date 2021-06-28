@@ -1,13 +1,13 @@
-package com.example.periodkeeper
+package com.example.periodkeeper.view.fragment
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.gotraveling.Dao.PeriodDao
 import com.example.gotraveling.Database.AppDatabase
+import com.example.periodkeeper.R
 import kotlinx.android.synthetic.main.fragment_welcome.*
 import java.text.SimpleDateFormat
 import java.util.*

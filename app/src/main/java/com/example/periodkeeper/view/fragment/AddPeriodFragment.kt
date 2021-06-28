@@ -1,18 +1,23 @@
-package com.example.periodkeeper
+package com.example.periodkeeper.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.activityViewModels
 import com.example.gotraveling.Dao.PeriodDao
 import com.example.gotraveling.Database.AppDatabase
+import com.example.periodkeeper.R
 import com.example.periodkeeper.model.Period
+import com.example.periodkeeper.viewmodel.AddPeriodViewModel
 import kotlinx.android.synthetic.main.fragment_add_period.*
 import java.text.SimpleDateFormat
 import java.util.*
 
 class AddPeriodFragment : Fragment() {
+
+    private val addPeriodFragmentViewModel: AddPeriodViewModel by activityViewModels()
 
     private var db: AppDatabase? = null
     private var periodDao: PeriodDao? = null

@@ -6,12 +6,12 @@
     app:startDestination="@id/welcomeFragment">
     <fragment
         android:id="@+id/addPeriodFragment"
-        android:name="com.example.periodkeeper.AddPeriodFragment"
+        android:name="com.example.periodkeeper.view.fragment.AddPeriodFragment"
         android:label="fragment_add_period"
         tools:layout="@layout/fragment_add_period" />
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.periodkeeper.WelcomeFragment"
+        android:name="com.example.periodkeeper.view.fragment.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
